@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=M+PLUS+1:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "ADlaM Display", system-ui;
+    color: #411D00;
+    text-decoration: none;
+    z-index: 1;
+}
+
+body{
+    background: url(../img/background.svg);
+    height: 10000px;
+}
+
+/* HEADER */
+#main_header{
+    background: url(../img/header.svg);
+    width: 100%;
+    height: 425px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10rem;
+    gap: 15rem;
+}
+
+/* TITLE */
+.main_title_container{
+    position: absolute;
+    width: 100%;
+    top: 23rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* BODY */
+/* SECTION / CONTAINERS */
+.section_container{
+    width: 100%;
+    height: 50rem;
+    padding-right: 500px;
+    padding-left: 500px;
+}
+
+.section_content_container{
+    width: 100%;
+    height: 100%;
+}
+
+.two_side_container{
+    display: flex;
+}
+
+/* BTN */
+.btn{
+    background-color: #FF943C;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 5px solid #FF7300;
+}
+
+.btn:hover{
+    border: none;
+}
+
+/* SUB HEADER */
+.sub_header{
+    background: url(../img/division.svg);
+    width: 100%;
+    height: 390px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_section{
+    width: 800px;
+    font-size: 50px;
+    color: #FFD4B0;
+    text-shadow: 0px 3px 0px #FF7300;
+    text-align: center;
+}
+
+/* SUBTITLE */
+
+.subtitle_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle{
+    width: 790px;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 0px 3px 0px #FF7300;
+}
