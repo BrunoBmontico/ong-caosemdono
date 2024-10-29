@@ -9,9 +9,19 @@
     <link rel="stylesheet" href="../css/services.css">
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/garoto.css">
+    <link rel="stylesheet" href="../css/slider.css">
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="../js/menu.js" defer></script>
+
+    <!-- slider jquery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="../js/slider.js" defer></script>
+    
+
     <title>Document</title>
 </head>
 
@@ -58,7 +68,7 @@
         <div class="section_content_container" id="services_container">
             <div class="content_service">
                 <p class="title_service">ADOTE</p>
-                <img src="../img/image 1.svg">
+                <img src="../img/dog_image1.svg">
                 <div class="line"></div>
                 <p class="text_service">
                     Agradecemos seu interesse em adotar um cão sem dono.
@@ -67,7 +77,7 @@
             </div>
             <div class="content_service">
                 <p class="title_service">APADRINHE</p>
-                <img src="../img/image 2.svg">
+                <img src="../img/dog_image2.svg">
                 <div class="line"></div>
                 <p class="text_service">
                     O apadrinhamento de um cão é uma forma de conseguirmos recursos fixos para ajudar
@@ -77,7 +87,7 @@
             </div>
             <div class="content_service">
                 <p class="title_service">DOAÇÕES</p>
-                <img src="../img/image 3.svg">
+                <img src="../img/dog_image3.svg">
                 <div class="line"></div>
                 <p class="text_service">
                     Existem muitas formas de nos ajudar a cuidar dos mais de 450 cães que estão abrigados
@@ -86,7 +96,7 @@
         </div>
     </section>
 
-
+    <!-- GAROTO HEADER -->
     <header class="sub_header">
         <p class="title_section">Garoto, o cão que esta mais de 10 anos esperando ser adotado.</p>
     </header>
@@ -139,7 +149,7 @@
         </div>
         <!-- VARIATION OF BLOCK CONTAINER -->
         <div class="block_container2">
-            <div class="block_3">
+            <div class="block_3" id="garoto_card">
                 <div id="image-garoto-container">
                     <img src="../img/garoto.svg">
                 </div>
@@ -161,6 +171,71 @@
             </div>
         </div>       
     </section>
+
+    <!-- QUEM SOMOS HEADER -->
+    <header class="sub_header">
+        <p class="title_section">QUEM SOMOS</p>
+    </header>
+    <!-- QUEM SOMOS TITLE -->
+    <div class="subtitle_container">
+        <p class="subtitle">Conheça a Ong Cão Sem Dono</p>
+    </div>
+    <!-- QUEM SOMOS -->
+    <section class="section_container">
+        <div class="section_content_container two_side_container">
+            <!-- DEFAULT BLOCK CONTAINER -->
+            <div class="block_container">
+                <div class="block_1">
+                    <p class="text_1">
+                        O Cão Sem Dono é uma ONG (Organização Não Governamental), sem fins lucrativos, e que nasceu de um
+                        grande sonho do seu atual presidente: tirar o maior número possível de animais das ruas, dar
+                        tratamento adequado e integrá-los a famílias que lhes deem amor, carinho e uma vida digna.
+                    </p>
+                </div>
+                <div class="block_2">
+                    <p class="text_2">
+                        Foi criada informalmente em 2005 na cidade de São Paulo.
+                        Seu estatuto foi lançado e registrado em 23 de Abril de 2008, mesmo dia em que obteve seu CNPJ.
+                    </p>
+                    <p class="text_2">
+                        Atualmente a ONG mantém 2 abrigos (a sede fica em Itapecerica da Serra, SP)
+                        com 450 animais que são constantemente tratados por veterinários, alimentados com ração de boa qualidade,
+                    </p>
+                    <p class="text_2">
+                        bebem água potável, dormem em abrigos especialmente construídos e são tratados com muito amor e carinho por todos
+                        os funcionários e voluntários que estão sempre visitando as instalações onde ficam os cães.
+                    </p>
+                    <p class="text_2">
+                        Sua equipe é formada por Presidente, Diretores e 33 colaboradores entre tratadores, veterinários,
+                        auxiliares de veterinária, equipe do Bazar, equipe de resgate e a equipe do escritório.
+                    </p>
+                </div>
+            </div>
+            <div class="block_container">
+                <div class="media_container">
+                    <video class="video" src="../img/ong-video.mp4" controls></video>
+                    <div class="logo_container">
+                        <img class="colored_logo" src="../img/logo_colored.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- VARIATION OF BLOCK CONTAINER -->
+        <div class="block_container2">
+            <div class="block_3">
+
+                <div class="slider">
+                    <div><img src="../img/ong_image1.svg"></div>
+                    <div><img src="../img/ong_image2.svg"></div>
+                    <div><img src="../img/ong_image3.svg"></div>
+                    <div><img src="../img/ong_image4.svg"></div>
+                    <div><img src="../img/ong_image5.svg"></div>
+                </div>
+
+            </div>
+        </div>       
+    </section>
+
 
 </body>
 </html>
