@@ -1,6 +1,12 @@
 # ONG Cão Sem Dono
 
-###### Projeto universitário feito por: Bruno Bonassi Montico, Angel Linhares, Júlia Vitória, João, Kauê
+###### Projeto universitário feito por:
+- Bruno Bonassi Montico
+- Angel Gabriel Alencar Linhares
+- Júlia Vitória Amorim Aureliano
+- João Pedro de Almeida Melo
+- Kauê
+- Daniel Melato Misslin
 
 ## Quem Somos?
 A cão sem sono foi criada em 2005, mas só foi reconhecida em 23 de abril de 2008. A ong fica localizada aqui em São Paulo, mais especificamente em Itapecerica da Serra, um sítio com 20 mil m².
