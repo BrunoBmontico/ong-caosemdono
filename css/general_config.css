@@ -12,13 +12,13 @@
 }
 
 body{
-    background: url(../img/background.svg);
+    background: url(../img/assets/background.svg);
     /* height: 10000px; */
 }
 
 /* HEADER */
 #main_header{
-    background: url(../img/header.svg);
+    background: url(../img/assets/header.svg);
     width: 100%;
     height: 425px;
     margin-bottom: 80px;
@@ -130,7 +130,7 @@ body{
 
 /* SUB HEADER */
 .sub_header{
-    background: url(../img/division.svg);
+    background: url(../img/assets/division.svg);
     width: 100%;
     height: 390px;
     

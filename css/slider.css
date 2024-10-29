@@ -12,6 +12,7 @@
 
 .slider{
     padding-top: 50px;
+    /* height: 30rem; */
 }
 
 .slide_margin{
@@ -22,4 +23,8 @@
     display: flex;
     justify-content: center;
     height: 350px;
+}
+
+#pqadotar_img{
+    height: 260px;
 }
