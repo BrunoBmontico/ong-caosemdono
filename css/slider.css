@@ -11,5 +11,15 @@
 }
 
 .slider{
-    padding-top: 75px;
+    padding-top: 50px;
+}
+
+.slide_margin{
+    width: 500px;
+}
+
+#position_slide{
+    display: flex;
+    justify-content: center;
+    height: 350px;
 }

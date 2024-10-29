@@ -13,20 +13,6 @@
     gap: 20px;
 }
 
-/* TEXT BLOCK */
-.text_2{
-    width: 300px;
-}
-
-/* BLOCKS 2 */
-.block_container2{
-    width: 100%;
-    height: 530px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* BLOCKS 2 */
 #garoto_card{
     display: flex;
@@ -66,34 +52,4 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-}
-
-/* MEDIA IN BLOCK CONTAINER*/
-.media_container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.video{
-    background-color: black;
-    border-radius: 10px;
-    border: 5px solid #FFD4B0;
-    width: 390px;
-    height: 500px;
-}
-
-.logo_container{
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.colored_logo{
-    width: 300px;
-    margin-left: 10px;
 }

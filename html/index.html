@@ -10,18 +10,16 @@
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/garoto.css">
     <link rel="stylesheet" href="../css/slider.css">
+    <link rel="stylesheet" href="../css/sitio.css">
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="../js/menu.js" defer></script>
-
     <!-- slider jquery -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="../js/slider.js" defer></script>
-    
-
     <title>Document</title>
 </head>
 
@@ -30,8 +28,8 @@
     <div id="menu_content">
         <ul id="menu-list">
             <a id="menu-link" href="#">Início</a>
-            <a id="menu-link" href="">Garoto, a espera de 10 anos</a>
-            <a id="menu-link" href="">Quem somos</a>
+            <a id="menu-link" href="#garoto">Garoto, a espera de 10 anos</a>
+            <a id="menu-link" href="#quem_somos">Quem somos</a>
             <a id="menu-link" href="">O sítio</a>
             <a id="menu-link" href="">Porque adotar?</a>
             <a id="menu-link" href="">Adoções e apadrinhamento</a>
@@ -97,7 +95,7 @@
     </section>
 
     <!-- GAROTO HEADER -->
-    <header class="sub_header">
+    <header class="sub_header" id="garoto">
         <p class="title_section">Garoto, o cão que esta mais de 10 anos esperando ser adotado.</p>
     </header>
     <!-- GAROTO TITLE -->
@@ -140,7 +138,7 @@
             </div>
             <div class="block_container">
                 <div class="media_container">
-                    <video class="video" src="../img/garoto-video.mp4" controls></video>
+                    <video class="media" src="../img/garoto-video.mp4" controls></video>
                     <div class="logo_container">
                         <img class="colored_logo" src="../img/logo_colored.svg">
                     </div>
@@ -173,7 +171,7 @@
     </section>
 
     <!-- QUEM SOMOS HEADER -->
-    <header class="sub_header">
+    <header class="sub_header" id="quem_somos">
         <p class="title_section">QUEM SOMOS</p>
     </header>
     <!-- QUEM SOMOS TITLE -->
@@ -213,7 +211,7 @@
             </div>
             <div class="block_container">
                 <div class="media_container">
-                    <video class="video" src="../img/ong-video.mp4" controls></video>
+                    <video class="media" src="../img/ong-video.mp4" controls></video>
                     <div class="logo_container">
                         <img class="colored_logo" src="../img/logo_colored.svg">
                     </div>
@@ -222,20 +220,89 @@
         </div>
         <!-- VARIATION OF BLOCK CONTAINER -->
         <div class="block_container2">
-            <div class="block_3">
-
-                <div class="slider">
-                    <div><img src="../img/ong_image1.svg"></div>
-                    <div><img src="../img/ong_image2.svg"></div>
-                    <div><img src="../img/ong_image3.svg"></div>
-                    <div><img src="../img/ong_image4.svg"></div>
-                    <div><img src="../img/ong_image5.svg"></div>
+            <div class="block_3" id="position_slide">
+                <div class="slide_margin">
+                    <div class="slider">
+                        <div><img src="../img/ong_image1.svg"></div>
+                        <div><img src="../img/ong_image2.svg"></div>
+                        <div><img src="../img/ong_image3.svg"></div>
+                        <div><img src="../img/ong_image4.svg"></div>
+                        <div><img src="../img/ong_image5.svg"></div>
+                    </div>
                 </div>
-
             </div>
         </div>       
     </section>
 
+    <!-- O SITIO -->
+    <header class="sub_header" id="o_sitio">
+        <p class="title_section">O Sítio</p>
+    </header>
+    <!-- O SITIO TITLE -->
+    <div class="subtitle_container">
+        <p class="subtitle">Nossas Instalações</p>
+    </div>
+    <!-- QUEM SOMOS -->
+    <section class="section_container">
+        <div class="section_content_container two_side_container">
+            <!-- DEFAULT BLOCK CONTAINER -->
+            <div class="block_container">
+                <div class="block_2" id="sitio_long_block">
+                    <p class="text_2">
+                        Localizado em Itapecerica da Serra, SP, em área de 20 mil metros quadrados,
+                        possui em sua estrutura grandes canis, espaço para atendimento veterinário emergencial,
+                        depósitos, casas de caseiros, área de internação e isolamento e muito, mas muito verde.
+                    </p>
+                    <p class="text_2">
+                        Todo o sistema de fossa é séptico e é limpo de 15 em 15 dias por empresas especializadas nesse tipo de serviço.
+                    </p>
+                    <p class="text_2">
+                        ​Estamos todos os dias de portas abertas para quem quiser nos visitar, atendemos em nosso sítio escolas e empresas.
+                    </p>
+                    <p class="text_2">
+                        Agendamento das visitas é feita pelo email: faleconosco@caosemdono.com.br
+                    </p>
+                    <p class="text_2">
+                        A ONG Cão Sem Dono atua em toda a cidade de Itapecerica da Serra, em São Paulo (capital) e região metropolitana.
+                        Também tem forte atuação em Pouso Alegre (MG) e cidades da região sul de Minas Gerais.
+                    </p>
+                    <p class="text_2">
+                        Atuamos em outras localidades após estudo de viabilidade por parte de nossa equipe de especialistas.
+                    </p>
+                    <p class="text_2">
+                        Áreas de desastres: Nossa equipe é especializada em atuar em tragédias onde são exigidos resgates de grandes proporções,
+                        com montagem de material de campanha e cercados, captação e transporte de alimentos para animais e presença de veterinários.
+                    </p>
+                    <p class="text_2">
+                        Mutirões: Realizamos anualmente diversos mutirões de castração e atendimento
+                        veterinário gratuito, bem como campanhas de conscientização
+                    </p>
+                </div>
+            </div>
+            <div class="block_container">
+                <div class="media_container">
+                    <img class="media imagem" src="../img/sitio_image1.svg">
+                    <img class="media imagem" src="../img/sitio_image2.svg">
+                </div>
+            </div>
+        </div>
+        <!-- VARIATION OF BLOCK CONTAINER -->
+        <div class="block_container2">
+            <div class="block_3" id="position_slide">
+                <div class="slide_margin">
+                    <div class="slider">
+                        <div><img src="../img/sitio_image3.svg"></div>
+                        <div><img src="../img/sitio_image4.svg"></div>
+                        <div><img src="../img/sitio_image5.svg"></div>
+                        <div><img src="../img/sitio_image6.svg"></div>
+                        <div><img src="../img/sitio_image7.svg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </section>
+
+    
 
 </body>
 </html>
