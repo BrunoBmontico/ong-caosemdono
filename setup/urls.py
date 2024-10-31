@@ -4,5 +4,5 @@ from core import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home_page,)
+    path('', views.home_page, name='home_page')
 ]

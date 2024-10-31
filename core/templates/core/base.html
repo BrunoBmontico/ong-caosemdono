@@ -10,6 +10,9 @@
 
 </head>
 
+{% block menu %}
+{% endblock menu %}
+
 <!-- HEADER -->
 <header id="main_header">
     <img id="logo" src="../img/assets/logo.svg">
@@ -23,20 +26,12 @@
 
 <body>
 
-    <div class="subtitle_container">
-
-        <!-- SUBTITULO DAS PAGINAS -->
-        <p class="subtitle"> {% block title_section %}{% endblock title_section %} </p>
-        
-    </div>
-
-
     <section class="section_container">
         <div class="section_content_container" {% block uniques_configs %}{% endblock uniques_configs %} >
 
             <!-- CONTEUDO DA PAGINA -->
-            {% block general_content %}
-            {% endblock general_content %}
+            {% block page_content %}
+            {% endblock page_content %}
 
         </div>
     </section>

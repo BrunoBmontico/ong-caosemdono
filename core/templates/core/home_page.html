@@ -1,0 +1,360 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block page_title %}
+    Home Page
+{% endblock page_title %}
+
+{% block menu %}
+
+<!-- MENU -->
+<section id="menu_container">
+    <div id="menu_content">
+        <ul id="menu-list">
+            <a id="menu-link" href="#">Início</a>
+            <a id="menu-link" href="#garoto">Garoto, a espera de 10 anos</a>
+            <a id="menu-link" href="#quem_somos">Quem somos</a>
+            <a id="menu-link" href="#o_sitio">O sítio</a>
+            <a id="menu-link" href="#pq_adotar">Porque adotar?</a>
+            <a id="menu-link" href="#adotar">Adoções e apadrinhamento</a>
+            <a id="menu-link" href="#">Nossa equipe</a>
+            <a id="menu-link" href="#">Clínica</a>
+            <a id="menu-link" href="#">Voluntários</a>
+            <a id="menu-link" href="#">Contato</a>
+            <div id="donation-container">
+                <a class="btn" href="">DOAÇÃO</a>
+            </div>
+        </ul>
+    </div>
+</section>
+
+{% endblock menu %}
+
+{% block page_content %}
+
+<!-- SERVICES TITLE -->
+    <div class="main_title_container">
+        <img src="../img/assets/title.svg">
+    </div>
+    <!-- SERVICES -->
+    <div class="content_service">
+        <p class="title_service">ADOTE</p>
+        <img src="../img/dog_img/dog_image1.svg">
+        <div class="line"></div>
+        <p class="text_service">
+            Agradecemos seu interesse em adotar um cão sem dono.
+            Prepare-se para uma experiência gratificante que durará muitos anos.
+        </p>
+    </div>
+    <div class="content_service">
+        <p class="title_service">APADRINHE</p>
+        <img src="../img/dog_img/dog_image2.svg">
+        <div class="line"></div>
+        <p class="text_service">
+            O apadrinhamento de um cão é uma forma de conseguirmos recursos fixos para ajudar
+            na tarefa diária de cuidar de nossos animais, além de ter mais tranquilidade e poder
+            planejar melhor nossas ações.
+        </p>
+    </div>
+    <div class="content_service">
+        <p class="title_service">DOAÇÕES</p>
+        <img src="../img/dog_img/dog_image3.svg">
+        <div class="line"></div>
+        <p class="text_service">
+            Existem muitas formas de nos ajudar a cuidar dos mais de 450 cães que estão abrigados
+            em nossos lares Transitórios, fora os cães que ajudamos a sustentar de outros protetores.
+        </p>
+    </div>
+
+
+<!-- GAROTO HEADER -->
+    <header class="sub_header" id="garoto">
+        <p class="title_section">Garoto, o cão que esta mais de 10 anos esperando ser adotado.</p>
+    </header>
+    <!-- GAROTO TITLE -->
+    <div class="subtitle_container">
+        <p class="subtitle">Então, enquanto o milagre da adoção não acontece, que tal ajudar esse cãozinho, hoje já idoso, de uma outra forma?</p>
+    </div>
+    <!-- GAROTO -->
+    <div class="block_container">
+        <div class="block_1">
+            <p class="text_1">
+                Na sombra da solidão e do abandono, há uma história que clama por compaixão.
+                Este é o caso de um cão chamado Garoto, que há mais de uma década espera por um lar em nosso abrigo
+                de Itapecerica da Serra, SP. Ele é o nosso mais antigo abrigado.
+            </p>
+        </div>
+        <div class="block_2">
+            <p class="text_2">
+                Garoto foi resgatado em condições desumanas, onde mal tinha o suficiente para sobreviver.
+                Seu corpo magro e olhos tristes contavam uma história de negligência e dor.Mas, graças aos esforços
+                incansáveis de nossa equipe de resgate, ele acabou encontrando refúgio em nosso sítio/abrigo.
+            </p>
+            <p class="text_2">
+                Nos primeiros dias, achamos que ele poderia ser adotado, pois era um cão novo,
+                cheio de vida. No entanto, os dias se transformaram em semanas, as semanas em meses,
+                e os meses em anos.
+            </p>
+            <p class="text_2">
+                E assim, mais de 10 anos se passaram e o Garoto, hoje com 13 anos,
+                continua ali, observando cada pessoa que passa por ele,
+                na esperança de que alguém o leve para uma casa.
+            </p>
+            <p class="text_2">
+                Às vezes, e temos certeza disso, Garoto se pergunta o que fez de errado.
+                Por que ninguém o adotou até hoje? Nem nós sabemos responder isso.
+            </p>
+        </div>
+    </div>
+    <div class="block_container">
+        <div class="media_container">
+            <video class="media" src="../img/video/garoto-video.mp4" controls></video>
+            <div class="logo_container">
+                <img class="colored_logo" src="../img/assets/logo_colored.svg">
+            </div>
+        </div>
+    </div>
+    <div class="block_container2">
+        <div class="block_3" id="garoto_card">
+            <div id="image-garoto-container">
+                <img src="../img/dog_img/garoto.svg">
+            </div>
+            <div id="objective-garoto-container">
+            
+                <div id="text-garoto-container">
+                    <p id="title-garoto">Objetivo</p>
+                    <p id="text-garoto">
+                        Por isso, seja um PADRINHO ou MADRINHA do GAROTO. Ajude com seus custos
+                        mensais e qualquer valor é bem-vindo. Ao aderir ao nosso apadrinhamento, você recebe notícias exclusivas,
+                        fotos e também poderá visitá-lo em nosso abrigo que está todos os dias aberto para isso.
+                    </p>
+                </div>
+                <div id="btn-garoto-container">
+                    <a class="btn" href="">APADRINHE</a>
+                    <a class="btn" href="">ADOTAR</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- QUEM SOMOS HEADER -->
+    <header class="sub_header" id="quem_somos">
+        <p class="title_section">QUEM SOMOS</p>
+    </header>
+    <!-- QUEM SOMOS TITLE -->
+    <div class="subtitle_container">
+        <p class="subtitle">Conheça a Ong Cão Sem Dono</p>
+    </div>
+    <!-- QUEM SOMOS -->
+    <div class="block_container">
+        <div class="block_1">
+            <p class="text_1">
+                O Cão Sem Dono é uma ONG (Organização Não Governamental), sem fins lucrativos, e que nasceu de um
+                grande sonho do seu atual presidente: tirar o maior número possível de animais das ruas, dar
+                tratamento adequado e integrá-los a famílias que lhes deem amor, carinho e uma vida digna.
+            </p>
+        </div>
+        <div class="block_2">
+            <p class="text_2">
+                Foi criada informalmente em 2005 na cidade de São Paulo.
+                Seu estatuto foi lançado e registrado em 23 de Abril de 2008, mesmo dia em que obteve seu CNPJ.
+            </p>
+            <p class="text_2">
+                Atualmente a ONG mantém 2 abrigos (a sede fica em Itapecerica da Serra, SP)
+                com 450 animais que são constantemente tratados por veterinários, alimentados com ração de boa qualidade,
+            </p>
+            <p class="text_2">
+                bebem água potável, dormem em abrigos especialmente construídos e são tratados com muito amor e carinho por todos
+                os funcionários e voluntários que estão sempre visitando as instalações onde ficam os cães.
+            </p>
+            <p class="text_2">
+                Sua equipe é formada por Presidente, Diretores e 33 colaboradores entre tratadores, veterinários,
+                auxiliares de veterinária, equipe do Bazar, equipe de resgate e a equipe do escritório.
+            </p>
+        </div>
+    </div>
+    <div class="block_container">
+        <div class="media_container">
+            <video class="media" src="../img/video/ong-video.mp4" controls></video>
+            <div class="logo_container">
+                <img class="colored_logo" src="../img/assets/logo_colored.svg">
+            </div>
+        </div>
+    </div>
+    <div class="block_container2">
+        <div class="block_3" id="position_slide">
+            <div class="slide_margin">
+                <div class="slider">
+                    <div><img src="../img/ong_img/ong_image1.svg"></div>
+                    <div><img src="../img/ong_img/ong_image2.svg"></div>
+                    <div><img src="../img/ong_img/ong_image3.svg"></div>
+                    <div><img src="../img/ong_img/ong_image4.svg"></div>
+                    <div><img src="../img/ong_img/ong_image5.svg"></div>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+<!-- O SITIO -->
+    <header class="sub_header" id="o_sitio">
+        <p class="title_section">O Sítio</p>
+    </header>
+<!-- O SITIO TITLE -->
+    <div class="subtitle_container">
+        <p class="subtitle">Nossas Instalações</p>
+    </div>
+<!-- O SITIO -->
+    <div class="block_container">
+        <div class="block_2" id="sitio_long_block">
+            <p class="text_2">
+                Localizado em Itapecerica da Serra, SP, em área de 20 mil metros quadrados,
+                possui em sua estrutura grandes canis, espaço para atendimento veterinário emergencial,
+                depósitos, casas de caseiros, área de internação e isolamento e muito, mas muito verde.
+            </p>
+            <p class="text_2">
+                Todo o sistema de fossa é séptico e é limpo de 15 em 15 dias por empresas especializadas nesse tipo de serviço.
+            </p>
+            <p class="text_2">
+                ​Estamos todos os dias de portas abertas para quem quiser nos visitar, atendemos em nosso sítio escolas e empresas.
+            </p>
+            <p class="text_2">
+                Agendamento das visitas é feita pelo email: faleconosco@caosemdono.com.br
+            </p>
+            <p class="text_2">
+                A ONG Cão Sem Dono atua em toda a cidade de Itapecerica da Serra, em São Paulo (capital) e região metropolitana.
+                Também tem forte atuação em Pouso Alegre (MG) e cidades da região sul de Minas Gerais.
+            </p>
+            <p class="text_2">
+                Atuamos em outras localidades após estudo de viabilidade por parte de nossa equipe de especialistas.
+            </p>
+            <p class="text_2">
+                Áreas de desastres: Nossa equipe é especializada em atuar em tragédias onde são exigidos resgates de grandes proporções,
+                com montagem de material de campanha e cercados, captação e transporte de alimentos para animais e presença de veterinários.
+            </p>
+            <p class="text_2">
+                Mutirões: Realizamos anualmente diversos mutirões de castração e atendimento
+                veterinário gratuito, bem como campanhas de conscientização
+            </p>
+        </div>
+    </div>
+    <div class="block_container">
+        <div class="media_container">
+            <img class="media imagem" src="../img/sitio_img/sitio_image1.svg">
+            <img class="media imagem" src="../img/sitio_img/sitio_image2.svg">
+        </div>
+    </div>
+    <div class="block_container2">
+        <div class="block_3" id="position_slide">
+            <div class="slide_margin">
+                <div class="slider">
+                    <div><img src="../img/sitio_img/sitio_image3.svg"></div>
+                    <div><img src="../img/sitio_img/sitio_image4.svg"></div>
+                    <div><img src="../img/sitio_img/sitio_image5.svg"></div>
+                    <div><img src="../img/sitio_img/sitio_image6.svg"></div>
+                    <div><img src="../img/sitio_img/sitio_image7.svg"></div>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+
+
+<!-- PORQUE ADOTAR HEADER -->
+    <header class="sub_header" id="pq_adotar">
+        <p class="title_section">Por que adotar?</p>
+    </header>
+<!-- PORQUE ADOTAR TITLE -->
+    <div class="subtitle_container">
+        <p class="subtitle">Existem várias razões pelas quais alguém pode desejar adotar um cão</p>
+    </div>
+<!-- PORQUE ADOTAR -->
+    <div class="block_container">
+        <div id="wide_block">
+            <p id="wide_title">Responsabilidade</p>
+            <div id="text_wide_container">
+                <p class="wide_text">
+                    Os cães são animais sociais e podem oferecer COMPANHERISMO e amor incondicional.
+                    Eles muitas vezes se tornam parte da família e podem ser uma fonte constante de alegria e conforto.
+                </p>
+                <p class="wide_text">
+                    Os cães são animais sociais e podem oferecer COMPANHERISMO e amor incondicional.
+                    Eles muitas vezes se tornam parte da família e podem ser uma fonte constante de alegria e conforto.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="block_container2">
+        <div class="block_3" id="position_slide">
+            <div class="slide_margin">
+                <div class="slider">
+                    <div><img id="pqadotar_img" src="../img/pq_adotar/pqadotar_image1.svg"></div>
+                    <div><img id="pqadotar_img" src="../img/pq_adotar/pqadotar_image2.svg"></div>
+                    <div><img id="pqadotar_img" src="../img/pq_adotar/pqadotar_image3.svg"></div>
+                    <div><img id="pqadotar_img" src="../img/pq_adotar/pqadotar_image4.svg"></div>
+                    <div><img id="pqadotar_img" src="../img/pq_adotar/pqadotar_image5.svg"></div>
+                    <div><img id="pqadotar_img" src="../img/pq_adotar/pqadotar_image6.svg"></div>
+                    <div><img id="pqadotar_img" src="../img/pq_adotar/pqadotar_image7.svg"></div>
+                    <div><img id="pqadotar_img" src="../img/pq_adotar/pqadotar_image8.svg"></div>
+                    <div><img id="pqadotar_img" src="../img/pq_adotar/pqadotar_image9.svg"></div>
+                    <div><img id="pqadotar_img" src="../img/pq_adotar/pqadotar_image10.svg"></div>
+                    <div><img id="pqadotar_img" src="../img/pq_adotar/pqadotar_image11.svg"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIDEOS BLOCKS -->
+        <div class="double_block_container">
+            <div class="double_block">
+                <video class="video_db_block" src="../img/video/pq_adotar_video1.mp4" controls></video>
+                <p class="text_db_block">O amor de um pet adotado é especial porque ele sabe que você escolheu ama-lo.</p>
+            </div>
+            <div class="double_block">
+                <video class="video_db_block" src="../img/video/pq_adotar_video2.mp4" controls></video>
+                <p class="text_db_block">Quando você adota um pet, não apenas muda a vida dele, mas também a sua própria vida para sempre.</p>
+            </div>
+        </div>
+
+        <div class="double_block_container">
+            <div class="double_block">
+                <video class="video_db_block" src="../img/video/pq_adotar_video3.mp4" controls></video>
+                <p class="text_db_block">Adotar um pet não apenas enche sua casa de alegria, mas também seu coração de gratidão</p>
+            </div>
+            <div class="double_block">
+                <video class="video_db_block" src="../img/video/pq_adotar_video4.mp4" controls></video>
+                <p class="text_db_block">Não há amor mais puro e incondicional do que o amor de um pet adotado</p>
+            </div>
+        </div>
+
+        <div class="double_block_container">
+            <div class="double_block">
+                <video class="video_db_block" src="../img/video/pq_adotar_video5.mp4" controls></video>
+                <p class="text_db_block">A melhor raça é a adotada. Não há maior beleza do que a gratidão nos olhos de um pet que foi resgatado</p>
+            </div>
+            <div class="double_block">
+                <video class="video_db_block" src="../img/video/pq_adotar_video6.mp4" controls></video>
+                <p class="text_db_block">Adotar um pet é mais do que simplesmente dar um lar, é oferecer esperança, amor e uma nova chance de felicidade</p>
+            </div>
+        </div>
+    </div>   
+
+
+<!-- ADOTAR HEADER -->
+    <header class="sub_header" id="adotar">
+        <p class="title_section">ADOÇÕES E APADRINHAMENTO</p>
+    </header>
+<!-- ADOTAR TITLE -->
+    <div class="subtitle_container">
+        <p class="subtitle">Nossos amigos</p>
+    </div>
+<!-- IMAGE BLOCKS -->
+    <div class="double_block_container">
+        <div class="double_block">
+            <img src="">
+        </div>
+        <div class="double_block">
+            <img src="">
+        </div>
+    </div>
+
+{% endblock page_content %}
