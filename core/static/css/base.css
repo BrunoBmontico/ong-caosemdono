@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=M+PLUS+1:wght@100..900&display=swap');
+
+:root{
+    --base_font_color: #411D00;
+}
+
+*{
+    font-family: "ADlaM Display", system-ui;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    color: var(--base_font_color);
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+body{
+    background: url(../img/assets/background.svg);
+}
+
+/* HEADER */
+#main_header{
+    background: url(../img/assets/header.svg);
+    width: 100%;
+    height: 425px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10rem;
+    gap: 15rem;
+}
+
+#logo{
+    width: 400px;
+    height: 150px;
+}
+
+#social_container{
+    display: flex;
+    gap: 10px;
+}
+
+.social{
+    width: 50px;
+}
+
+/* TITLE */
+.main_title_container{
+    position: absolute;
+    width: 100%;
+    top: 23rem;
+    display: flex;
+    justify-content: center;
+}
