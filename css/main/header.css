@@ -1,0 +1,14 @@
+/* HEADER */
+#logo{
+    width: 400px;
+    height: 150px;
+}
+
+#social_container{
+    display: flex;
+    gap: 10px;
+}
+
+.social{
+    width: 50px;
+}
