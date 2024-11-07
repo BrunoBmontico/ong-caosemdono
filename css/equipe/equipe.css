@@ -24,12 +24,9 @@
 
 #equipes_block{
     height: 250px;
-    margin-left: 60px;
 }
 
 #equipes_block_shadow{
-    margin-left: 60px;
-    height: 250px;
     box-shadow: 0px 20px 0px 0px#FFD4B0;
     height: 300px;
 }
@@ -59,5 +56,19 @@
 
 .integrantes_block{
     height: 300px;
-    width: 350px;
+    width: 260px;
+    display: flex;
+    gap: 2px;
+}
+
+.equipe{
+    font-size: 25px;
+}
+
+.desc_integrante{
+    color: #EC6A00;
+}
+
+.img_equipe{
+    width: 200px;
 }
