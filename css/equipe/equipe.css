@@ -23,16 +23,17 @@
 }
 
 #equipes_block{
-    height: 250px;
+    height: auto;
 }
 
 #equipes_block_shadow{
     box-shadow: 0px 20px 0px 0px#FFD4B0;
-    height: 300px;
+    height: auto;
 }
 
 #equipes_text{
     color: #411D00;
+    margin: 20px 0 20px 0;
 }
 
 #equipes_tiny_shadow{
