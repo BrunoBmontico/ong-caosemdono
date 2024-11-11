@@ -49,13 +49,13 @@ form{
     gap: 20px;
 }
 
-
 .two_side_input{
     box-shadow: 0px 2px 0px 0px#FF7300;
     border-radius: 10px;
     padding-left: 20px;
     width: 140px;
     height: 40px;
+    outline: none;
 }
 
 #select{
@@ -75,4 +75,11 @@ form{
     color: #fff;
     background-color: #FF7300;
     box-shadow: 0px 5px 0px 0px #FF943C;
+}
+
+#voluntarios_img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
