@@ -6,3 +6,6 @@ def home_page(request):
 
 def team(request):
     return render(request, 'core/team.html')
+
+def volunteers(request):
+    return render(request, 'core/volunteers.html')

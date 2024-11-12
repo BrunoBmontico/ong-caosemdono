@@ -1,0 +1,167 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+
+{% block page_title %}
+    Venha ser Voluntário
+{% endblock page_title %}
+
+
+{% block menu %}
+<!-- MENU -->
+<section id="menu_container">
+    <div id="menu_content">
+        <ul id="menu-list">
+            <a id="menu-link" href="/">Início</a>
+            <a id="menu-link" href="/">Garoto, a espera de 10 anos</a>
+            <a id="menu-link" href="/">Quem somos</a>
+            <a id="menu-link" href="/">O sítio</a>
+            <a id="menu-link" href="/">Porque adotar?</a>
+            <a id="menu-link" href="/">Adoções e apadrinhamento</a>
+            <a id="menu-link" href="/team">Nossa equipe</a>
+            <a id="menu-link" href="/">Clínica</a>
+            <a id="menu-link" href="#">Voluntários</a>
+            <a id="menu-link" href="/">Contato</a>
+            <div id="donation-container">
+                <a class="btn" href="">DOAÇÃO</a>
+            </div>
+        </ul>
+    </div>
+</section>
+{% endblock menu %}
+
+
+{% block page_content %}
+
+    <div class="main_title_container" id="secondary_title">
+        <p class="subtitle">Oque é ser um voluntário</p>
+        <p class="orange_title">Voluntário Cão Sem Dono</p>
+    </div>
+
+    <section class="section_container">
+        <div class="section_content_container two_side_container" id="equipes_twoside_container">
+            <div class="block_container">
+                <img class="media imagem" src="/static/img/voluntarios/image 9.svg">
+
+                <div class="media_container">
+                    <div class="logo_container">
+                        <img id="image_equipe" src="/static/img/voluntarios/Group 110.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="block_container" id="equipes_container">
+                <div class="block_1" id="equipes_block">
+                    <p class="text_1" id="equipes_text">
+                        O Cão Sem Dono é uma ONG, sem fins lucrativos, que nasceu há quase 20 anos, de um grande sonho do
+                        seu atual presidente, Rafael Miranda: tirar o maior número possível de animais das ruas,
+                        dar tratamento adequado e integrá-los a famílias que lhes deem amor, carinho e uma vida digna.
+                    </p>
+                </div>
+                <div class="block_1" id="equipes_block">
+                    <p class="text_1" id="equipes_text">
+                        Atualmente a ONG mantém 423 animais que são constantemente tratados por veterinários, alimentados com
+                        ração de boa qualidade, bebem água potável, dormem em abrigos especialmente construídos e são tratados
+                        commuito amor e carinho por todos os funcionários, visitantes e voluntários que estão sempre
+                        visitando as instalações onde ficam os cães.
+                    </p>
+                </div>
+                <div class="block_1" id="equipes_block">
+                    <p class="text_1" id="equipes_text">
+                        Nossa equipe é formada por Presidente, Diretores e 33 colaboradores entre tratadores, veterinários,
+                        auxiliares de veterinária, equipe do Bazar, equipe de resgate e a equipe do escritório.
+                    </p>
+                </div>
+                <div class="block_1" id="equipes_block_shadow">
+                    <p class="text_1" id="equipes_text">
+                        Você tem tempo livre, ama cães, é comprometido, pontual, tem atitude, organização, sabe trabalhar em equipe, se adapta quando
+                        necessário e se comunica bem? Então venha nos ajudar com o nosso lindo trabalho...VEM SER UM VOLUNTARIO CSD!!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="subtitle_container" id="secondary_subtitle">
+        <p class="orange_title">Voluntários Cão Sem Dono em Destaque</p>
+    </div>
+    <section class="section_container">
+        <div class="section_content_container" id="voluntarios_img_container">
+            <img class="voluntarios_img" src="/static/img/voluntarios/image.svg">
+            <img class="voluntarios_img" src="/static/img/voluntarios/image-1.svg">
+            <img class="voluntarios_img" src="/static/img/voluntarios/image-2.svg">
+        </div>
+    </section>
+
+    <div class="subtitle_container" id="secondary_subtitle">
+        <p class="subtitle">Quer ser um Voluntário Cão Sem Dono?</p>
+    </div>
+
+    <section class="section_container">
+        <div class="section_content_container">
+            <div class="block_container">
+                <div id="wide_block" class="voluntarios_block">
+                    <div id="text_wide_container">
+                        <p class="wide_text" id="voluntarios_text">
+                            Se você se identificou com as atividades disponíveis aos voluntários,
+                            listadas no Book do Voluntário, preencha o formulário abaixo.
+                            Você passará a fazer parte da base de VOLUNTARIOS CÃO SEM DONO e
+                            assim que possível entraremos em contato.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_container">
+        <div class="section_content_container">
+            
+            <form action="" method="post">
+
+                <div class="container_twoside_form">
+                    <p class="form_title">Informações profissionais</p>
+                    <input class="input" placeholder="Profissão" type="text">
+                    <input class="input" placeholder="Empresa em que trabalha" type="text">
+                    <input class="input" placeholder="Cargo" type="text">
+                    <input class="input" placeholder="Possui habilitação?" type="text">
+
+                    <div id="two_side_container_input">
+                        <input class="two_side_input" placeholder="dirige?" type="text">
+                        <input class="two_side_input" placeholder="Possui carro?" type="text">
+                    </div>
+
+                    <p class="form_title">Selecione a opção para a atividade que deseja atuar</p>
+                    <select id="select">
+                        <option disabled selected>Selecione uma opção</option>
+                        <option value="passeador_itapec">Passeador - Itapec.Serra</option>
+                        <option value="passeador_vergueiro">Passeador - Jd Vergueiro</option>
+                        <option value="foto_video">Foto e Video</option>
+                        <option value="coord">Coord. de Voluntários</option>
+                        <option value="rastelar_gramado">Rastelar Gramado</option>
+                        <option value="retirar_doações">Retirar Doações</option>
+                        <option value="AFA">Apoio Feiras de Adoção</option>
+                        <option value="recepcionista">Recepcionar Visiatantes</option>
+                        <option value="escritorio">Atividades de escritório</option>
+                        <option value="higienizacao">Higienização das estruturas - Jd Vergueiro</option>
+                        <option value="higienizacao">Higienização das estruturas - Itapec.Serra</option>
+                    </select>
+                </div>
+
+                <div class="container_twoside_form">
+
+                    <p class="form_title">Venha fazer parte desta história!!</p>
+                    <input class="input" placeholder="Nome Completo" type="text">
+                    <input class="input" placeholder="Email" type="email">
+                    <input class="input" placeholder="Data de Nascimento" type="datetime">
+                    <input class="input" placeholder="WhatsApp" type="tel">
+                    <input class="input" placeholder="CEP" type="number">
+                    <input class="input" placeholder="Bairro" type="text">
+                    <input class="input" placeholder="Endereço" type="text">
+
+                    <button type="submit" id="sendform">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+{% endblock page_content %}
