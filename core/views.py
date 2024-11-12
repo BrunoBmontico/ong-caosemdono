@@ -2,6 +2,10 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from .models import *
 
+
+def success(request):
+    return render(request, 'core/success.html')
+
 def home_page(request):
     return render(request, 'core/home_page.html')
 
@@ -47,4 +51,4 @@ def volunteers(request):
         )
 
         volunteer.save()
-        return redirect('/volunteers/')
+        return redirect('/success/')

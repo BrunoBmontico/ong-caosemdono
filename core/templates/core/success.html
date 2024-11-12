@@ -1,0 +1,20 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+
+{% block page_title %}
+    success!
+{% endblock page_title %}
+
+
+{% block page_content %}
+
+<div id="success_message_container">
+    <div id="container_content">
+        <img id="success_img" src="/static/img/success/Group.svg">
+        <p id="message_text">Seu cadastro foi enviado com sucesso!</p>
+        <a id="redirect" href="/">Voltar pra pagina Inicial.</a>
+    </div>
+</div>
+
+{% endblock page_content %}
