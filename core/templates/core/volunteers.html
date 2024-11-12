@@ -116,22 +116,24 @@
     <section class="section_container">
         <div class="section_content_container">
             
-            <form action="" method="post">
+            <form action="{% url 'volunteers' %}" method="post">
+
+                {% csrf_token %}
 
                 <div class="container_twoside_form">
                     <p class="form_title">Informações profissionais</p>
-                    <input class="input" placeholder="Profissão" type="text">
-                    <input class="input" placeholder="Empresa em que trabalha" type="text">
-                    <input class="input" placeholder="Cargo" type="text">
-                    <input class="input" placeholder="Possui habilitação?" type="text">
+                    <input name="profissao" class="input" placeholder="Profissão" type="text">
+                    <input name="empresa" class="input" placeholder="Empresa em que trabalha" type="text">
+                    <input name="cargo" class="input" placeholder="Cargo" type="text">
+                    <input name="habilitação" class="input" placeholder="Possui habilitação?" type="text">
 
                     <div id="two_side_container_input">
-                        <input class="two_side_input" placeholder="dirige?" type="text">
-                        <input class="two_side_input" placeholder="Possui carro?" type="text">
+                        <input name="dirige" class="two_side_input" placeholder="dirige?" type="text">
+                        <input name="possui_carro" class="two_side_input" placeholder="Possui carro?" type="text">
                     </div>
 
                     <p class="form_title">Selecione a opção para a atividade que deseja atuar</p>
-                    <select id="select">
+                    <select name="cargo_voluntario" id="select">
                         <option disabled selected>Selecione uma opção</option>
                         <option value="passeador_itapec">Passeador - Itapec.Serra</option>
                         <option value="passeador_vergueiro">Passeador - Jd Vergueiro</option>
@@ -150,13 +152,13 @@
                 <div class="container_twoside_form">
 
                     <p class="form_title">Venha fazer parte desta história!!</p>
-                    <input class="input" placeholder="Nome Completo" type="text">
-                    <input class="input" placeholder="Email" type="email">
-                    <input class="input" placeholder="Data de Nascimento" type="datetime">
-                    <input class="input" placeholder="WhatsApp" type="tel">
-                    <input class="input" placeholder="CEP" type="number">
-                    <input class="input" placeholder="Bairro" type="text">
-                    <input class="input" placeholder="Endereço" type="text">
+                    <input name="nome" class="input" placeholder="Nome Completo" type="text">
+                    <input name="email" class="input" placeholder="Email" type="email">
+                    <input name="nasc" class="input" placeholder="Data de Nascimento" type="datetime">
+                    <input name="whats" class="input" placeholder="WhatsApp" type="tel">
+                    <input name="cep" class="input" placeholder="CEP" type="number">
+                    <input name="bairro" class="input" placeholder="Bairro" type="text">
+                    <input name="endereco" class="input" placeholder="Endereço" type="text">
 
                     <button type="submit" id="sendform">Enviar</button>
                 </div>
