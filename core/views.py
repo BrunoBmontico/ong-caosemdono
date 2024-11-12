@@ -51,3 +51,62 @@ def volunteers(request):
 
         volunteer.save()
         return redirect('/success/')
+    
+def adopt(request):
+
+    if request.method == 'GET':
+        return render(request, 'core/adopt.html')
+    else:
+        profissao = request.POST.get('profissao')
+        nome = request.POST.get('nome')
+        email = request.POST.get('email')
+        nasc = request.POST.get('nasc')
+        cep = request.POST.get('cep')
+        bairro = request.POST.get('bairro')
+        endereco = request.POST.get('endereco')
+        dog_name = request.POST.get('dog_name')
+
+        adopt = Adopt(
+            profissao = profissao,
+            nome = nome,
+            email = email,
+            nasc = nasc,
+            cep = cep,
+            bairro = bairro,
+            endereco = endereco,
+            dog_name = dog_name
+        )
+
+        adopt.save()
+        return redirect('/success/')
+    
+def sponsor(request):
+
+    if request.method == 'GET':
+        return render(request, 'core/sponsor.html')
+    else:
+        nome = request.POST.get('nome')
+        email = request.POST.get('email')
+        nasc = request.POST.get('nasc')
+        cpf = request.POST.get('cpf')
+        cep = request.POST.get('cep')
+        bairro = request.POST.get('bairro')
+        endereco = request.POST.get('endereco')
+        dog_name = request.POST.get('dog_name')
+        valor_mensal = request.POST.get('valor_mensal')
+        recebimento = request.POST.get('recebimento')
+
+        sponsor = Sponsor(
+            nome = nome,
+            email = email,
+            cpf = cpf,
+            cep = cep,
+            bairro = bairro,
+            endereco = endereco,
+            dog_name = dog_name,
+            valor_mensal = valor_mensal,
+            recebimento = recebimento,
+        )
+
+        sponsor.save()
+        return redirect('/success/')

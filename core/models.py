@@ -26,7 +26,7 @@ class Adopt(models.Model):
     profissao = models.CharField(max_length=30, blank=False, null=False)
     dog_name = models.CharField(max_length=30, blank=False, null=False)
 
-class sponsor(models.Model):
+class Sponsor(models.Model):
     nome = models.CharField(max_length=30, blank=False, null=False)
     email = models.CharField(max_length=30, blank=False, null=False)
     cpf = models.CharField(max_length=30, blank=False, null=False)

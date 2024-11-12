@@ -1,0 +1,36 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+
+{% block page_title %}
+    Adotar
+{% endblock page_title %}
+
+
+{% block page_content %}
+
+<div class="main_title_container" id="secondary_title">
+    <p class="subtitle">Adote um Cão sem Dono</p>
+    <p class="orange_title">Um amigo espera por você</p>
+</div>
+
+<section class="section_container">
+    <form class="section_content_container" id="dog_form" action="{% url 'adopt' %}" method="post">
+
+        {% csrf_token %}
+
+        <input name="nome" class="input" placeholder="Nome Completo"  type="text">
+        <input name="email" class="input" placeholder="Email" type="email">
+        <input name="nasc" class="input" placeholder="Data de Nascimento" type="text">
+        <input name="cep" class="input" placeholder="CEP" type="number">
+        <input name="bairro" class="input" placeholder="Bairro" type="text">
+        <input name="endereco" class="input" placeholder="Endereço" type="text">
+        <input name="profissao" class="input" placeholder="Profissão" type="text">
+        <input name="dog_name" class="input" placeholder="Nome do Cãozinho" type="text">
+
+        <button type="submit" id="sendform">Enviar</button>
+    </form>
+
+</section>
+
+{% endblock page_content %}
