@@ -1,0 +1,84 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+
+{% block page_title %}
+    Nossa Clínica
+{% endblock page_title %}
+
+
+{% block menu %}
+<!-- MENU -->
+<section id="menu_container">
+    <div id="menu_content">
+        <ul id="menu-list">
+            <a id="menu-link" href="/">Início</a>
+            <a id="menu-link" href="/">Garoto, a espera de 10 anos</a>
+            <a id="menu-link" href="/">Quem somos</a>
+            <a id="menu-link" href="/">O sítio</a>
+            <a id="menu-link" href="/">Porque adotar?</a>
+            <a id="menu-link" href="/">Adoções e apadrinhamento</a>
+            <a id="menu-link" href="/team">Nossa equipe</a>
+            <a id="menu-link" href="#">Clínica</a>
+            <a id="menu-link" href="/volunteers">Voluntários</a>
+            <a id="menu-link" href="/contact">Contato</a>
+            <div id="donation-container">
+                <a class="btn" href="">DOAÇÃO</a>
+            </div>
+        </ul>
+    </div>
+</section>
+{% endblock menu %}
+
+
+{% block page_content %}
+
+<div class="main_title_container" id="secondary_title">
+    <p class="subtitle">Clínica popular</p>
+    <p class="orange_title">Onde seu animalzinho de estimação tem o cuidado e respeito que merece.</p>
+</div>
+
+<section class="section_container">
+    <div class="section_content_container two_side_container">
+
+        <div class="block_container" id="equipes_container">
+
+            <div class="block_1" id="clinic">
+                <img src="/static/img/clinic/clinic1.svg">
+                <p class="subtitle">Castração</p>
+                <p class="text_1" id="equipes_text">
+                    Todas as cirurgias de castração são realizadas com anestesia inalatória, proporcionando maior segurança ao animal.
+                </p>
+            </div>
+
+            <div class="block_1 clinic" id="clinic">
+                <img src="/static/img/clinic/clinic3.svg">
+                <p class="subtitle">Cirurgias Gerais</p>
+                <p class="text_1" id="equipes_text">
+                    Nossa equipe de veterinários está sempre apta à realização de todo tipo de cirurgia.
+                </p>
+            </div>
+        </div>
+
+        <div class="block_container" id="equipes_container">
+
+            <div class="block_1 clinic" id="clinic">
+                <img src="/static/img/clinic/clinic2.svg">
+                <p class="subtitle">Vacinação</p>
+                <p class="text_1" id="equipes_text">
+                    Se você ama seu cãozinho ou gatinho, você precisa manter as vacinas em dia. Só elas protegem de doenças graves.
+                </p>
+            </div>
+
+            <div class="block_1 clinic" id="clinic">
+                <img src="/static/img/clinic/clinic4.svg">
+                <p class="subtitle">Internação</p>
+                <p class="text_1" id="equipes_text">
+                    Em caso de necessidade de internação, nossas dependências estão adaptadas para isso com monitoramento 24 horas.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock page_content %}
