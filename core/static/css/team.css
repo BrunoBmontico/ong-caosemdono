@@ -1,0 +1,75 @@
+#equipes_twoside_container{
+    display: flex;
+    gap: 20px;
+}
+
+#secondary_title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.orange_title{
+    color: #EC6A00;
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+#equipes_container{
+    gap: 30px;
+}
+
+#equipes_block{
+    height: auto;
+}
+
+#equipes_block_shadow{
+    box-shadow: 0px 20px 0px 0px#FFD4B0;
+    height: auto;
+}
+
+#equipes_text{
+    color: #411D00;
+    margin: 20px 0 20px 0;
+}
+
+#equipes_tiny_shadow{
+    box-shadow: 0px 20px 0px 0px#FFD4B0;
+}
+
+#image_equipe{
+    margin-top: 100px;
+}
+
+#secondary_subtitle{
+    margin-top: 50px;
+}
+
+#equipes_integrantes_container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.integrantes_block{
+    height: 300px;
+    width: 260px;
+    display: flex;
+    gap: 2px;
+}
+
+.equipe{
+    font-size: 25px;
+}
+
+.desc_integrante{
+    color: #EC6A00;
+}
+
+.img_equipe{
+    width: 200px;
+}

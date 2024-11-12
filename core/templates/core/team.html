@@ -1,0 +1,164 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+
+{% block page_title %}
+    Nossa Equipe
+{% endblock page_title %}
+
+
+{% block menu %}
+<section id="menu_container">
+    <div id="menu_content">
+        <ul id="menu-list">
+            <a id="menu-link" href="#">Início</a>
+            <a id="menu-link" href="#garoto">Garoto, a espera de 10 anos</a>
+            <a id="menu-link" href="#quem_somos">Quem somos</a>
+            <a id="menu-link" href="#o_sitio">O sítio</a>
+            <a id="menu-link" href="#pq_adotar">Porque adotar?</a>
+            <a id="menu-link" href="#adotar">Adoções e apadrinhamento</a>
+            <a id="menu-link" href="#">Nossa equipe</a>
+            <a id="menu-link" href="#">Clínica</a>
+            <a id="menu-link" href="#">Voluntários</a>
+            <a id="menu-link" href="#">Contato</a>
+            <div id="donation-container">
+                <a class="btn" href="">DOAÇÃO</a>
+            </div>
+        </ul>
+    </div>
+</section>
+{% endblock menu %}
+
+
+{% block main_title %}
+    <div class="main_title_container" id="secondary_title">
+        <p class="subtitle">Profissionais Capacitados</p>
+        <p class="orange_title">RESGATAR UM ANIMAL É APENAS O COMEÇO. O VERDADEIRO DESAFIO É CUIDAR DELE</p>
+    </div>
+{% endblock main_title %}
+
+
+{% block page_content %}
+
+<section class="section_container">
+        <div class="section_content_container two_side_container" id="equipes_twoside_container">
+            <!-- DEFAULT BLOCK CONTAINER -->
+            <div class="block_container" id="equipes_container">
+                <div class="block_1" id="equipes_block">
+                    <p class="text_1" id="equipes_text">
+                        Na Cão Sem Dono, entendemos que cada animal resgatado merece não apenas um novo lar,
+                        mas também uma nova chance de viver com saúde e dignidade. Por isso, nossa equipe é
+                        composta por profissionais capacitados e dedicados,que oferecem desde cuidados veterinários
+                        básicos até tratamentos complexos, sempre com muito amor e respeito.
+                    </p>
+                </div>
+                <div class="block_1" id="equipes_block_shadow">
+                    <p class="text_1" id="equipes_text">
+                        Nossa equipe está aqui para garantir que cada animal que passa por nossas mãos receba o melhor cuidado,
+                        a mais sincera atenção e todo o amor que ele merece. Porque para nós, cuidar dos animais não é apenas uma profissão;
+                        é um compromisso de vida. Convidamos você a conhecer mais sobre o nosso trabalho e a fazer parte dessa jornada conosco.
+                        Juntos, continuaremos a fazer a diferença na vida daqueles que tanto nos ensinam sobre amor e companheirismo.
+                    </p>
+                </div>
+            </div>
+
+            <div class="block_container">
+                <div class="block_1" id="equipes_tiny_shadow">
+                    <p class="text_1" id="equipes_text">
+                        Cada profissional que você vê aqui não está apenas realizando um trabalho; está cumprindo uma missão de vida.
+                        O amor pelos animais transparece em cada olhar, em cada gesto de cuidado e em cada toque gentil.
+                    </p>
+                </div>
+
+                <div class="media_container">
+                    <div class="logo_container">
+                        <img id="image_equipe" src="/img/assets/Group 55.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="subtitle_container" id="secondary_subtitle">
+        <p class="subtitle">Equipe</p>
+    </div>
+
+    <section class="section_container">
+        <div class="section_content_container" id="equipes_integrantes_container">
+        
+            <!-- IMAGE BLOCKS -->
+            <div class="double_block_container" >
+                <div class="double_block integrantes_block">
+                    <img class="img_equipe" src="/img/equipe/equipe_img11.svg">
+                    <p class="subtitle equipe">Dr. Luis</p>
+                    <p class="desc_integrante">anestesista</p>
+                </div>
+                <div class="double_block integrantes_block">
+                    <img class="img_equipe" src="/img/equipe/equipe_img6.svg">
+                    <p class="subtitle equipe">Dra. Greta</p>
+                    <p class="desc_integrante">Oncologista</p>
+                </div>
+                <div class="double_block integrantes_block">
+                    <img class="img_equipe" src="/img/equipe/equipe_img2.svg">
+                    <p class="subtitle equipe">Dra. Thaisa</p>
+                    <p class="desc_integrante">Clinica Geral</p>
+                </div>
+            </div>
+
+            <div class="double_block_container " >
+                <div class="double_block integrantes_block">
+                    <img class="img_equipe" src="/img/equipe/equipe_img9.svg">
+                    <p class="subtitle equipe">Dr. Murilo</p>
+                    <p class="desc_integrante">Cirurgião</p>
+                </div>
+                <div class="double_block integrantes_block">
+                    <img class="img_equipe" src="/img/equipe/equipe_img8.svg">
+                    <p class="subtitle equipe">Dra. Karol</p>
+                    <p class="desc_integrante">Ultrassonografia</p>
+                </div>
+                <div class="double_block integrantes_block">
+                    <img class="img_equipe" src="/img/equipe/equipe_img1.svg">
+                    <p class="subtitle equipe">Dra. Nathalia</p>
+                    <p class="desc_integrante">Cirurgiã</p>
+                </div>
+            </div>
+
+            <div class="double_block_container">
+                <div class="double_block integrantes_block">
+                    <img class="img_equipe" src="/img/equipe/equipe_img3.svg">
+                    <p class="subtitle equipe">Dr. Daniele</p>
+                    <p class="desc_integrante">Clinica Geral</p>
+                </div>
+                <div class="double_block integrantes_block">
+                    <img class="img_equipe" src="/img/equipe/equipe_img5.svg">
+                    <p class="subtitle equipe">Leticia</p>
+                    <p class="desc_integrante">Auxiliar de Veterinária</p>
+                </div>
+                <div class="double_block integrantes_block">
+                    <img class="img_equipe" src="/img/equipe/equipe_img10.svg">
+                    <p class="subtitle equipe">Juliana</p>
+                    <p class="desc_integrante">Auxiliar Veterinária</p>
+                </div>
+            </div>
+
+            <div class="double_block_container">
+                <div class="double_block integrantes_block">
+                    <img class="img_equipe" src="/img/equipe/equipe_img4.svg">
+                    <p class="subtitle equipe">Roseane</p>
+                    <p class="desc_integrante">Auxiliar de Veterinária</p>
+                </div>
+                <div class="double_block integrantes_block">
+                    <img class="img_equipe" src="/img/equipe/equipe_img7.svg">
+                    <p class="subtitle equipe">Dra. Juliana</p>
+                    <p class="desc_integrante">Oftalmologista</p>
+                </div>
+                <div class="double_block integrantes_block">
+                    <img class="img_equipe" src="/img/equipe/equipe_img12.svg">
+                    <p class="subtitle equipe">Dra. Thais</p>
+                    <p class="desc_integrante">Acupunturista</p>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+{% endblock page_content %}
