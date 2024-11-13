@@ -2,6 +2,9 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from .models import *
 
+def contact(request):
+    return render(request, 'core/contact.html')
+
 def clinic(request):
     return render(request, 'core/clinic.html')
 
