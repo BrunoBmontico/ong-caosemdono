@@ -5,7 +5,7 @@
 ###### - Angel Gabriel Alencar Linhares
 ###### - Júlia Vitória Amorim Aureliano
 ###### - João Pedro de Almeida Melo
-###### - Kauê
+###### - Kauê Cordeiro Saula
 ###### - Daniel Melato Misslin
 
 ## Quem Somos?
