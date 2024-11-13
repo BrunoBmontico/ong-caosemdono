@@ -2,6 +2,9 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from .models import *
 
+def donation(request):
+    return render(request, 'core/donation.html')
+
 def contact(request):
     return render(request, 'core/contact.html')
 

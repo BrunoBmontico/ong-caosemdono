@@ -12,4 +12,5 @@ urlpatterns = [
     path('sponsor/', views.sponsor, name='sponsor'),
     path('clinic/', views.clinic, name='clinic'),
     path('contact/', views.contact, name='contact'),
+    path('donation/', views.donation, name='donation'),
 ]
