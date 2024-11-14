@@ -1,0 +1,43 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+
+{% block page_title %}
+    Apadrinhe
+{% endblock page_title %}
+
+
+{% block page_content %}
+
+<div class="main_title_container" id="secondary_title">
+    <p class="subtitle">Apadrinhe um Cão sem Dono</p>
+    <p class="orange_title">Ajude-nos a cuidar de nossos amigos</p>
+</div>
+
+<section class="section_container">
+    <form class="section_content_container" id="dog_form" action="{% url 'sponsor' %}" method="post">
+
+        {% csrf_token %}
+
+        <input name="nome" class="input" placeholder="Nome Completo"  type="text">
+        <input name="email" class="input" placeholder="Email" type="email">
+        <input name="nasc" class="input" placeholder="Data de Nascimento" type="text">
+        <input name="cpf" class="input" placeholder="CPF" type="number">
+        <input name="cep" class="input" placeholder="CEP" type="number">
+        <input name="bairro" class="input" placeholder="Bairro" type="text">
+        <input name="endereco" class="input" placeholder="Endereço" type="text">
+        <input name="dog_name" class="input" placeholder="Nome do Cãozinho" type="text">
+        <input name="valor_mensal" class="input" placeholder="Valor Mensal" type="number">
+        <select name="recebimento" class="input">
+            <option>Como deseja receber o boleto?</option>
+            <option value="email">Email</option>
+            <option value="correio">Correio</option>
+        </select>
+
+
+        <button type="submit" id="sendform">Enviar</button>
+    </form>
+
+</section>
+
+{% endblock page_content %}

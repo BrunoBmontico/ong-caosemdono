@@ -1,0 +1,100 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+
+{% block page_title %}
+    Doação
+{% endblock page_title %}
+
+
+{% block menu %}
+<!-- MENU -->
+<section id="menu_container">
+    <div id="menu_content">
+        <ul id="menu-list">
+            <a id="menu-link" href="/">Início</a>
+            <a id="menu-link" href="/">Garoto, a espera de 10 anos</a>
+            <a id="menu-link" href="/">Quem somos</a>
+            <a id="menu-link" href="/">O sítio</a>
+            <a id="menu-link" href="/">Porque adotar?</a>
+            <a id="menu-link" href="/">Adoções e apadrinhamento</a>
+            <a id="menu-link" href="/team">Nossa equipe</a>
+            <a id="menu-link" href="/clinic">Clínica</a>
+            <a id="menu-link" href="/volunteers">Voluntários</a>
+            <a id="menu-link" href="/contact">Contato</a>
+            <div id="donation-container">
+                <a class="btn" href="#">DOAÇÃO</a>
+            </div>
+        </ul>
+    </div>
+</section>
+{% endblock menu %}
+
+
+{% block page_content %}
+<div class="main_title_container" id="secondary_title">
+    <p class="subtitle">Doações</p>
+    <p class="orange_title">Como ajudar!</p>
+</div>
+
+<section class="section_container">
+    <div class="section_content_container two_side_container">
+
+        <div class="block_container" id="equipes_container">
+
+            <img src="/static/img/donation/image.svg">
+
+            <p class="orange_title" id="orange_title_contact">RETIRADA DE DOAÇÕES</p>
+            <div class="block_1 clinic" id="contact">
+                <p class="text_1" id="donation_text">
+                    Para entrega de doações em geral, inclusive para nosso BAZAR PERMANENTE,
+                    retiramos em São Paulo e região metropolitana, bastando encaminhar um e-mail
+                    para faleconosco@caosemdono.com.br com seu nome, endereço completo, telefone
+                    e tipo de doação disponível.
+                </p>
+            </div>
+
+            <p class="orange_title" id="orange_title_contact">COMO AJUDAR</p>
+            <div class="block_1 clinic" id="contact">
+                <p class="text_1" id="donation_text">
+                    Você pode doar qualquer quantia em dinheiro através do PAGSEGURO UOL. 
+                    O pagamento pode ser feito nos cartões VISA, MASTERCARD, AURA, HIPERCARD, ELO,
+                    AMERICAN EXPRESS, DINERS, PERSDONAL CARD, FORT BRASIL, PAGGO.
+                    Usando o PAGSEGURO UOL você tem a tranquilidade de fazer uma operação segura através de
+                    cartão de crédito ou boleto bancário, bastando clicar no botão abaixo
+                </p>
+            </div>
+
+            <p class="orange_title" id="orange_title_contact">DEPÓSITO, TRANSFERÊNCIA OU DOC</p>
+
+            <img src="/static/img/donation/image 11.svg">
+ 
+            <p class="text_1" id="donation_text">Você também pode fazer depósito, transferências ou doc para as contas ao lado</p>
+        </div>
+
+        <div class="block_container" id="equipes_container">
+
+            <div class="block_1 clinic" id="contact">
+                <p class="text_1" id="donation_text">
+                    Existem muitas formas de nos ajudar a cuidar dos mais de 450
+                    cães que cuidamos e alimentamos todos os dias,
+                    fora os cães que ajudamos a sustentar de outros protetores.
+                </p>
+            </div>
+
+            <div class="block_1 clinic" id="contact">
+                <p class="text_1" id="donation_text">
+                    Você pode doar ração, cobertores, medicamentos, material de limpeza e de procedimento,
+                    artigos para nosso Bazar permanente ou fazer uma doação em dinheiro, o que nos ajuda no
+                    pagamento de despesas como conta de água, luz, telefone, internet,
+                    funcionários, impostos, compra de ração, medicamentos, veterinários,
+                    exames laboratoriais, procedimentos cirúrgicos, combustível, feiras de adoção, entre tantas outras.
+                </p>
+            </div>
+            <img src="/static/img/donation/Group 111.svg">
+            <img src="/static/img/donation/Group 112.svg">
+            <img src="/static/img/donation/Group 113.svg">
+        </div>
+    </div>
+</section>
+{% endblock page_content %}
